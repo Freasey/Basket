@@ -1,0 +1,96 @@
+html,body{
+    font-family: 'Poppins';
+    background-color: #f3d8a0;
+    min-width: 1450px;
+    max-height: 754px;
+    background: url(../../1218.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    background-color: #f3d8a0;
+
+}
+
+h1{
+    display: flex;
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+h3{ 
+    font-weight: 400;
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    border: none;
+    padding: 30px 60px;
+    color: white;
+    background-color: black;
+    margin: 20px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.basket{
+    width:10% ;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    z-index: 1;
+    display: none;
+    transform: translate(677px, -440px );
+    transition: all 1s;
+}
+.juds{
+    margin: 100px auto 0 auto;
+    width: fit-content;
+    height: auto;
+    background-color: orange;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.judul{
+    width: fit-content;
+    height: auto;
+    background-color: orange;
+    margin: 100px 100px 0px 260px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #008DD8;
+    border-radius: 20px;
+    margin: 0px 300px 0px 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+img{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.home img{
+    position: relative;
+    width: 250px;
+    height: auto;
+    transform: translate(40px, 30px);
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.home1 img{
+    position: relative;
+    width: 100px;
+    height: auto;
+    transform: translate(40px, 30px);
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 100px;
+}

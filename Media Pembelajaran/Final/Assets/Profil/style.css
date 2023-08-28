@@ -1,0 +1,129 @@
+html,body{
+    font-family: 'Poppins';
+    background-color: #9fe9fc;
+}
+
+h1{
+    margin: 0px 20px 0px 20px;
+    font-size: 50px;
+    color: #3c280d;
+}
+h3{ 
+    font-weight: 400;
+    margin: 20px 20px 20px 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    border: none;
+    padding: 30px 60px;
+    color: white;
+    background-color: black;
+    margin: 20px ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.judul{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    opacity: 1;
+    transition: 1s all;
+}
+.box img{
+    width: 200px;
+    height: auto;
+    margin: 100px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 27px;
+}
+.home{
+    position: fixed;
+}
+.kembali{
+    cursor: pointer;
+    padding: 0;
+    position: fixed;
+    transform: translate(30px, 600px);
+}
+.kembali img{
+    width: 300px;
+    height: auto;
+    
+
+}
+.home img{
+    width: 100px;
+    height: auto;
+    transform: translate(40px,-220px);
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 100px;
+    position: fixed;
+}
+
+#awal{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 1s all;
+    
+}
+#profil{
+    display: none;
+    position: fixed;
+    opacity: 1;
+    transition: 1s all;
+    
+}
+.boxes{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    transform: translate(0, 0);
+    transition: 1s all;
+}
+.boxes img{
+    width: 830px;
+    
+    
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 340px 0 340px;
+    text-align: center;
+}
+.text h1{
+    display: flex;
+    font-size: 40px;
+    position: fixed;
+}
+#kanan{
+    width: 300px;
+    height: auto;
+    position: fixed;
+    transform: translate(1160px, 220px);
+    cursor: pointer;
+}
+#kiri{
+    width: 300px;
+    height: auto;
+    position: fixed;
+    transform: translate(50px, 220px);
+    cursor: pointer;
+}

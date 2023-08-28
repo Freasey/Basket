@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'Hasil';
+    src: url(../patchwork_stitchlings/Patchwork\ Stitchlings\ Color.ttf);
+}
+
+html, body{
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: #9fe9fc;
+    height: auto;
+    margin: 0;
+    
+}
+#turu{
+    width: 300px;
+    height: auto;
+    cursor: default;
+    text-align: center;
+    display: none;
+    position: absolute;
+}
+#awal{
+    opacity: 0;
+    transition: 1s all;
+    margin: 10px 0 0 30px;
+}
+h3{ font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 0 0 15px;
+    cursor: default;
+}
+#hasil{
+    position: fixed;
+    font-family: 'Hasil';
+    color: white;
+    position: relative;
+}
+#hasil1{
+    position: fixed;
+    font-family: 'Hasil';
+    color: white;
+    position: relative;
+}
+
+.box{
+    color: black;
+    width: 500px;
+    margin: 30px 0 100px 15px;
+
+}
+.btn input{
+    display: none;
+}
+.btn{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+section label{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border: 2px solid;
+    color: black;
+    flex-direction:column ;
+    padding: 5px;
+    margin: 5px 0 0 0;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    background:orange ;
+    background-size: cover;
+}
+input[type="radio"]:checked+label{
+    background: black;
+    position: relative;
+    background-size: cover;
+    color: black;
+}
+button{
+    border: none;
+    cursor:pointer;
+    margin-top: 30px;
+}
+
+.soal{
+    width: 1000px;
+    height: 500px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.lanjut{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    display: inline;
+}
+#soal2{
+    display: none;
+}
+#soal3{
+    display: none;
+}
+#soal4{
+    display: none;
+}
+#soal5{
+    display: none;
+}
+#soal6{
+    display: none;
+}
+#soal7{
+    display: none;
+}
+#soal8{
+    display: none;
+}
+#soal9{
+    display: none;
+}
+#soal10{
+    display: none;
+}
+p{  
+    margin-left: 50px;
+    margin-right: 30px;
+    background-color: #f3d8a0;
+    border: 5px solid #65350f;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 40px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+video{
+    width: 500px;
+    height: auto;
+}
+.vids{
+    transition: 0.5s all;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 25%;
+    top: 40%;
+    cursor: pointer;
+    opacity: 0;
+}
+.videobox{
+    position: relative;
+}
+#last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:100px ;
+}
+#hasil1{
+    margin: 0;
+}
+#hasil{
+    margin: 0;
+}
+#yakin {
+    transform: translate(0,-11px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+#yakin img{
+    margin-top: 15px;
+    position: relative;
+    width: 150px;
+    height: auto;
+    z-index: 10;
+    cursor:pointer ;
+}
+#nigga{
+    display: block;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}

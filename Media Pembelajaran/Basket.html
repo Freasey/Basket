@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<style>
+    html,body{
+        margin: 0;
+        font-family: 'Poppins';
+    }
+    iframe{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        }
+        #music{
+            left: 95%;
+            z-index: 100;
+            position: fixed;
+            cursor: pointer;
+        }
+</style>
+
+
+
+
+
+<body>
+        <div onclick="auplay(1)" id="music"><h3 style="margin: 0; color: white;">music</h3></div>
+    <audio loop src="Final/Assets/y2mate.com - Super Mario Bros Theme Song.mp3"></audio>
+    <iframe src="Final/BUKA FILE INI .html" ></iframe>
+    
+
+
+
+
+
+
+
+
+<script>
+    const auplay=(a)=>{
+
+        if (a===1) {
+            document.querySelector('audio').play();
+            document.querySelector('#music').setAttribute('onclick','auplay(0)')
+        }
+        else{
+            document.querySelector('audio').pause();
+            document.querySelector('#music').setAttribute('onclick','auplay(1)');
+        }
+        }
+        
+    
+</script>
+</body>
+</html>

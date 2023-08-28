@@ -1,0 +1,80 @@
+html,body{
+    font-family: 'Poppins';
+    position: relative;
+    min-width: 1450px;
+    max-height: 754px;
+    background: url(../1218.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    background-color: #f3d8a0;
+}
+#awal{
+    opacity: 0;
+    transition: 1s all;
+}
+h1{
+    display: flex;
+    margin: 0px 20px 0px 20px;
+    color: white;
+    
+}
+h3{ 
+    font-weight: 400;
+    margin: 20px 20px 20px 20px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+h2{
+    border: none;
+    padding: 30px 60px;
+    color: white;
+    background-color: black;
+    margin: 20px ;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s all;
+}
+.judul{
+    width: fit-content;
+    height: auto;
+    background-color: orange;
+    margin: 100px 100px 0px 260px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 1;
+    transition: 1s all;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    height: auto;
+    background-color: #008DD8;
+    border-radius: 20px;
+    margin: 0px 300px 0px 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    opacity: 1;
+    transition: 1s all;
+}
+img{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s all;
+}
+.home img{
+    position: fixed;
+    width: 100px;
+    height: auto;
+    transform: translate(50px, -420px);
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 100px;
+}

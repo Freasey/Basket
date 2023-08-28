@@ -1,0 +1,201 @@
+html, body{
+    width: 100%;
+    font-family: 'Poppins';
+    margin: 0;
+    position: relative;
+    min-width: 1450px;
+    max-height: 754px;
+    background: url(background\ lapangan-04.png) no-repeat center center fixed; 
+    background-size: cover;
+    background-color: white;
+    transition: 1s all;
+}
+#awal{
+    position: fixed;
+    background-color: #9fe9fc;
+    width: 2000px;
+    height: 800px;
+    transition: 1s all;
+    opacity: 0;
+    z-index: 100;
+    display: none;
+}
+#tombolmulai{
+    width: 20%;
+    height: auto;
+    position: fixed;
+    font-size: 50px;
+    margin-top: 230px; 
+    top: 300px;  
+    left: 40%;  
+    transition: 1s;
+    text-align: center;
+    z-index: 10;
+    cursor: pointer;
+
+}
+#texthome{
+    scale: 1.5;
+    font-weight: 900;
+    position: fixed;
+    font-size: 50px;
+    margin-top: 370px; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: 1s;
+    text-align: center;
+    z-index: 2;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    cursor: default;
+}   
+.basket{
+    width:20% ;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+    -webkit-animation: spin 3s linear infinite;
+    -moz-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    z-index: 1;
+}
+
+.pemain{
+    height: auto;
+    position: fixed;
+    transition: 2s all;
+    display: inline;
+}
+
+.bask{
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    top: 181px;
+    right: 0px;
+    transition: all 1s;
+    z-index: 1;
+    transform: translate(0px,0px);
+}
+.maintitle{
+    color: white;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition:all 2s ;
+    display: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 30%;
+    height: auto;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+.back-halaman-awal{
+    position: fixed;
+    top: 630px;
+    left: 70px;
+    z-index: -1;
+    display: none;
+    cursor: pointer;
+    color: black;
+    opacity: 0;
+    transition: 1s all;
+}
+.tujuan{
+    display: none ;
+    position: fixed;
+    transform: translate(1420px, -190px);
+    width: 5%;
+    height: auto;
+    opacity: 0;
+    transition: all 3s;
+    cursor: pointer;
+}
+.profil{
+    display: none ;
+    position: fixed;
+    transform: translate(1420px, 380px);
+    width: 5%;
+    height: auto;
+    opacity: 0;
+    transition: all 3s;
+    cursor: pointer;
+
+}
+.daftar{
+    display: none ;
+    position: fixed;
+    transform: translate(40px, -190px);
+    width: 5%;
+    height: auto;
+    opacity: 0;
+    transition: all 3s;
+    cursor: pointer;
+
+}
+a{text-decoration: none;
+
+}
+#introbask{
+    transition: 3s all;
+    width: 50px;
+    position: fixed;
+    transform: translate(-230px, 250px);
+}
+#intro{
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    transition: 1s all;
+}
+#logo{
+    margin-top: 100px;
+    width: 300px;
+    height: auto;
+}
+#kolom{
+    margin-top: 100px;
+    border-radius: 20px;
+    width: 500px;
+    height: 25px;
+    border: 1px solid black;
+}
+#isi{
+    transition: 3s all;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0;
+    background-color: #9fe9fc;
+}
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes spin{
+    100%{ -webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spin{
+    100%{ -webkit-transform:rotate(360deg);}
+}
+@keyframes spin{
+    100%{ -webkit-transform:rotate(360deg);}
+}
